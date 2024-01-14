@@ -1,0 +1,121 @@
+body {
+    background-image: url(./images/box-removebg-preview.png), linear-gradient(120deg, rgb(151, 218, 238) 0%, rgb(49, 3, 44) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color:rgb(59, 8, 53);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    color: #7a91a1;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px #000000a1;
+}
+
+.inputbox {
+    margin-top: 20px;
+    padding:5px;
+}
+
+input#memberName {
+    background: #fff;
+}
+#memberName {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #e2e9ee;
+    border-radius: 6px;
+}
+
+#addmember {
+    margin-top:5px;
+    padding: 9px 10px;
+    font-size: 15px;
+    border: 1px solid  rgba(1,8,51,1);
+    border-radius: 8px;
+    background: rgb(1,8,51);
+    background: linear-gradient(120deg, rgb(93, 130, 165) 0%, rgba(75,39,71,1) 100%);
+    color: #fff;
+    font-weight: 300;
+}
+
+#addmember:hover{
+    background: rgb(1,8,51);
+    background: linear-gradient(120deg, rgb(104, 134, 161) 0%, rgb(163, 127, 159) 100%);
+    color: #fff;
+}
+
+.membersList {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.membersList th, .membersList td {
+    padding: 12px;
+    border: 1px solid #e2e9ee;
+}
+
+.membersList th {
+    color: #fff;
+}
+
+.membersList tr:hover {
+    background-color: rgb(206, 197, 204);
+}
+
+table tr {
+    border-radius: 8px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.12);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table td {
+    width: 100%;
+    border: unset !important;
+}
+
+table td:last-child {
+    text-align: end;
+    padding-right: 20px;
+}
+
+table td:first-child {
+    text-align: start;
+    padding-left: 20px;
+}
+
+.box {
+    background:linear-gradient(120deg, rgba(8, 18, 83, 0.541) 0%, rgba(26, 2, 23, 0.966) 100%)
+}
+
+.membersList th, .membersList td {
+    color: #e9eef0;
+    font-weight: 500;
+}
+
+table tr {
+    background: #0e010b52;
+}
+
+table tr:hover {
+    background: #fff;
+}
+
+table tr:hover td {
+    color: #120114;
+}
+
